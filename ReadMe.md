@@ -2,9 +2,8 @@
 
 ## Description
 This is a command-line application built to fetch and display TODO items from an API.
-```aidl
+```
 TODO at index 1 can be accessed at: https://jsonplaceholder.typicode.com/todos/1
-
 TODO at index 2 can be accessed at: https://jsonplaceholder.typicode.com/todos/2
 ```
 The goal of the project is to build a command-line tool that consumes the first 20 even numbered TODOs and outputs their title and completion status.
@@ -29,11 +28,11 @@ The application is built using Node.js and utilizes Axios for making HTTP reques
 2. Clone this repository to your local machine.
 3. Navigate to the project directory.
 4. Build the Docker image by running:
-```aidl
+```
 docker build -t todos-cli-app .
 ```
 5. Once the image is built, run a container based on the image using:
-```aidl
+```
 docker run todos-cli-app
 ```
 

@@ -1,0 +1,19 @@
+{
+  "name": "todos-cli-app",
+  "version": "1.0.0",
+  "description": "A command-line application to fetch and display TODO items from an API.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alok Ranjan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
+}
