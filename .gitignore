@@ -1,0 +1,12 @@
+# Ignore IntelliJ IDEA files and folders
+.idea/
+
+# Ignore Node.js modules
+node_modules/
+
+# Ignore IDE-related settings files
+*.iml
+*.ipr
+*.iws
+*.bak
+.idea/
